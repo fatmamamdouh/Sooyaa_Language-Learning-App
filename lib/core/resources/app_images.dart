@@ -1,0 +1,46 @@
+class AppImages {
+  static String appName = 'assets/images/app_name.png';
+  static String logo = 'assets/images/logo.png';
+  static String cats = 'assets/images/cats.png';
+  static String cat = 'assets/images/cat.png';
+  static String forget = 'assets/images/forget.png';
+  static String successIcon = 'assets/images/success.png';
+  static String hello = 'assets/images/hello.png';
+  static String divider = 'assets/images/divider.png';
+  static String google = 'assets/images/google.png';
+  static String english = 'assets/images/english.png';
+  static String spanish = 'assets/images/spania.png';
+  static String french = 'assets/images/french.png';
+  static String italian = 'assets/images/italy.png';
+  static String levelBar = "assets/images/bar_levels.png";
+  static String reasonBar = "assets/images/select_three.png";
+  static String zoneBar = "assets/images/bar_zone.png";
+  static String oldBar = "assets/images/old_bar.png";
+  static String catLevel = "assets/images/cat_level.png";
+  static String catZone = "assets/images/cat_zone.png";
+  static String catOld = "assets/images/old_cat.png";
+  static String completed = "assets/images/complete.png";
+  static String beginner = "assets/images/beginer.png";
+  static String intermediate = "assets/images/imtermediate.png";
+  static String advanced = "assets/images/advanced.png";
+  static String daily = "assets/images/daily.png";
+  static String education = "assets/images/education.png";
+  static String friends = "assets/images/friends.png";
+  static String travel = "assets/images/travel.png";
+  static String career = "assets/images/career.png";
+  static String fun = "assets/images/fun.png";
+  static String five = "assets/images/5.png";
+  static String ten = "assets/images/10.png";
+  static String fifteen = "assets/images/15.png";
+  static String twenty = "assets/images/20.png";
+  static String premiumCard = "assets/images/premium_card.png";
+  static String discountIcon = "assets/images/discount_icon.png";
+  static String rateCard = "assets/images/rate_card.png";
+  static String certificateIcon = "assets/images/certificate_icon.png";
+  static String feedbackIcon = "assets/images/feedback_icon.png";
+  static String innovationIcon = "assets/images/innovation_icon.png";
+  static String playIcon = "assets/images/play_icon.png";
+  static String premiumIcon = "assets/images/premium_iacon.png";
+  static String noAdIcon = "assets/images/no_ad_icon.png";
+
+}
