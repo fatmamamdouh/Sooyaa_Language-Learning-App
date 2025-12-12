@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../resources/app_colors.dart';
 
@@ -11,17 +12,17 @@ class LessonsAppBar extends StatelessWidget {
     return Row(
       children: [
         IconButton(onPressed: (){}, icon: Icon(Icons.close,),),
-        SizedBox(width: 6.0,),
+        SizedBox(width: 6.0.w,),
         Flexible(
           child: LinearProgressIndicator(
-            minHeight: 12.0,
-            borderRadius: BorderRadius.circular(100.0),
+            minHeight: 12.0.h,
+            borderRadius: BorderRadius.circular(100.0.r),
             value: .5,
             color: AppColors.primaryColor,
             backgroundColor: AppColors.fillColor,
           ),
         ),
-        SizedBox(width: 6.0,),
+        SizedBox(width: 6.0.w,),
         IconButton(onPressed: (){}, icon: Icon(Icons.menu,),),
       ],
     );

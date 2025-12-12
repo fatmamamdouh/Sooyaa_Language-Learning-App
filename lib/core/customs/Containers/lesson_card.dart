@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:video_player/video_player.dart';
 import 'package:chewie/chewie.dart';
 
@@ -62,7 +63,7 @@ class _LessonVideoCardState extends State<LessonVideoCard> {
               : Image.network(
             widget.thumbnailUrl,
             width: double.infinity,
-            height: 260,
+            height: 260.h,
             fit: BoxFit.cover,
           ),
 

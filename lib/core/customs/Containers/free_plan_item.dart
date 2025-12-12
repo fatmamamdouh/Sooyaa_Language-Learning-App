@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../resources/text_style.dart';
 
 class FreePlanItem extends StatelessWidget {
@@ -25,7 +26,7 @@ class FreePlanItem extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(width: 10,),
+        SizedBox(width: 10.w,),
         Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -38,7 +39,7 @@ class FreePlanItem extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 4.0,
+                height: 4.0.h,
               ),
               Text(
                 desc,
@@ -53,7 +54,7 @@ class FreePlanItem extends StatelessWidget {
           ),
         ),
         SizedBox(
-          height: 24.0,
+          height: 24.0.h,
         ),
       ],
     );

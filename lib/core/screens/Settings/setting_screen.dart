@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sooyaa_app/core/customs/Buttons/custom_btn.dart';
 import 'package:sooyaa_app/core/customs/Containers/discount_card.dart';
 import 'package:sooyaa_app/core/customs/Containers/setting_item.dart';
@@ -16,7 +17,7 @@ class SettingScreen extends StatelessWidget {
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            padding: EdgeInsets.symmetric(horizontal: 16.0.w),
             child: Column(
               children: [
                 Row(
@@ -26,9 +27,9 @@ class SettingScreen extends StatelessWidget {
                   ],
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(bottom: 16.0, top: 8.0),
+                  padding: EdgeInsets.only(bottom: 16.0.h, top: 8.0.h),
                   child: Container(
-                    height: 2,
+                    height: 2.h,
                     color: Color(0xffF2F2F2),
                     width: double.infinity,
                   ),
@@ -39,7 +40,7 @@ class SettingScreen extends StatelessWidget {
                     Text(AppTexts.accountText, style: AppTextStyle.baloo18),
                   ],
                 ),
-                SizedBox(height: 8.0),
+                SizedBox(height: 8.0.h),
                 SettingItem(
                   propertyName: AppTexts.nameText,
                   propertyValue: "Text",
@@ -57,15 +58,15 @@ class SettingScreen extends StatelessWidget {
                         ),
                         Spacer(),
                         CircleAvatar(
-                          radius: 16.0,
+                          radius: 16.0.r,
                           child: Image.asset(AppImages.friends),
                         ),
                       ],
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 16.0, top: 8.0),
+                      padding: EdgeInsets.only(bottom: 16.0.h, top: 8.0.h),
                       child: Container(
-                        height: 2,
+                        height: 2.h,
                         color: Color(0xffF2F2F2),
                         width: double.infinity,
                       ),
@@ -96,7 +97,7 @@ class SettingScreen extends StatelessWidget {
                     Text(AppTexts.generalText, style: AppTextStyle.baloo18),
                   ],
                 ),
-                SizedBox(height: 8.0),
+                SizedBox(height: 8.0.h),
                 Column(
                   children: [
                     Row(
@@ -113,9 +114,9 @@ class SettingScreen extends StatelessWidget {
                       ],
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 16.0, top: 8.0),
+                      padding:  EdgeInsets.only(bottom: 16.0.h, top: 8.0.h),
                       child: Container(
-                        height: 2,
+                        height: 2.h,
                         color: Color(0xffF2F2F2),
                         width: double.infinity,
                       ),
@@ -146,7 +147,7 @@ class SettingScreen extends StatelessWidget {
                 Container(
                   decoration: BoxDecoration(
                     color: AppColors.fillColor,
-                    borderRadius: BorderRadius.circular(12.0),
+                    borderRadius: BorderRadius.circular(12.0.r),
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(12.0),
@@ -174,14 +175,14 @@ class SettingScreen extends StatelessWidget {
                           ],
                         ),
                         SizedBox(
-                          height: 8.0,
+                          height: 8.0.h,
                         ),
                         Text(
                           AppTexts.clearLessonsDescription,
                           style: AppTextStyle.style14,
                         ),
                         SizedBox(
-                          height: 8.0,
+                          height: 8.0.h,
                         ),
                         CustomBtn(
                           title: AppTexts.clearButtonText,

@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../resources/text_style.dart';
 
@@ -26,9 +27,9 @@ class SettingItem extends StatelessWidget {
           ],
         ),
         Padding(
-          padding: const EdgeInsets.only(bottom: 16.0, top: 8.0),
+          padding: EdgeInsets.only(bottom: 16.0.h, top: 8.0.h),
           child: Container(
-            height: 2,
+            height: 2.h,
             color: Color(0xffF2F2F2),
             width: double.infinity,
           ),

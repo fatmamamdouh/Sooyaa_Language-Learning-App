@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sooyaa_app/core/customs/Buttons/custom_btn.dart';
 import 'package:sooyaa_app/core/customs/Containers/free_plan_item.dart';
 import 'package:sooyaa_app/core/customs/Containers/plan_feature.dart';
@@ -25,18 +26,18 @@ class PlansScreen extends StatelessWidget {
                   textAlign: TextAlign.center,
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 16.0, bottom: 24.0),
+                  padding: EdgeInsets.only(top: 16.0.h, bottom: 24.0.h),
                   child: Image.asset(AppImages.rateCard,),
                 ),
                 Container(
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12.0),
+                    borderRadius: BorderRadius.circular(12.0.r),
                     color: AppColors.fillColor,
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 12.0,
-                      vertical: 16.0,
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 12.0.w,
+                      vertical: 16.0.h,
                     ),
                     child: Column(
                       children: [
@@ -46,7 +47,7 @@ class PlansScreen extends StatelessWidget {
                             fontWeight: FontWeight.w600,
                           ),
                         ),
-                        SizedBox(height: 24.0),
+                        SizedBox(height: 24.0.h),
                         PlanFeature(
                           featureTitle: AppTexts.premiumFirst,
                           featureDesc: AppTexts.premiumFirstDesc,
@@ -81,16 +82,16 @@ class PlansScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(height: 16.0),
+                SizedBox(height: 16.0.h),
                 Container(
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12.0),
+                    borderRadius: BorderRadius.circular(12.0.r),
                     color: AppColors.fillColor,
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 12.0,
-                      vertical: 16.0,
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 12.0.w,
+                      vertical: 16.0.h,
                     ),
                     child: Column(
                       children: [
@@ -100,7 +101,7 @@ class PlansScreen extends StatelessWidget {
                             fontWeight: FontWeight.w600,
                           ),
                         ),
-                        SizedBox(height: 24.0),
+                        SizedBox(height: 24.0.h),
                         FreePlanItem(
                           time: AppTexts.nowText,
                           title: AppTexts.freeTrialNow,
@@ -122,16 +123,16 @@ class PlansScreen extends StatelessWidget {
                 ),
 
                 Padding(
-                  padding: const EdgeInsets.only(top: 8.0, bottom: 16.0),
+                  padding: EdgeInsets.only(top: 8.0.h, bottom: 16.0.h),
                   child: Text(AppTexts.restorePurchaseText, style: AppTextStyle.style16underline),
                 ),
 
                 Divider(
-                  height: 2,
+                  height: 2.h,
                   color: AppColors.grey5,
                 ),
                 Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 16.0),
+                  padding: EdgeInsets.symmetric(vertical: 16.0.h),
                   child: CustomBtn(title: AppTexts.tryFree, hidden: false, onTap: (){},),
                 ),
               ],

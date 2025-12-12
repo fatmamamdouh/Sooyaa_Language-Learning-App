@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sooyaa_app/core/customs/AppBar/lessons_app_bar.dart';
@@ -22,14 +21,14 @@ class FirstLessonScreen extends StatelessWidget {
             children: [
               LessonsAppBar(),
               Padding(
-                padding: const EdgeInsets.only(top: 4.0, bottom: 8.0),
+                padding: EdgeInsets.only(top: 4.0.h, bottom: 8.0.h),
                 child: Divider(
                   color: AppColors.fillColor,
-                  height: 2,
+                  height: 2.h,
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.symmetric(vertical: 12.0),
+                padding: EdgeInsets.symmetric(vertical: 12.h),
                 child: Text(AppTexts.aboutTheLesson, style: AppTextStyle.baloo18.copyWith(fontSize: 20.0),),
               ),
               Expanded(
@@ -42,7 +41,7 @@ class FirstLessonScreen extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.symmetric(vertical: 16.0),
+                padding: EdgeInsets.symmetric(vertical: 16.h),
                 child: Text(AppTexts.videoScreenQuestions, style: AppTextStyle.style20,),
               ),
               Spacer(),
