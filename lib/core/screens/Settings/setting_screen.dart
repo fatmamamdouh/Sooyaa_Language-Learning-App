@@ -87,6 +87,7 @@ class SettingScreen extends StatelessWidget {
                   propertyValue: "Free",
                 ),
                 CustomBtn(
+                  isLoading: false,
                   title: AppTexts.languageLevelTestButton,
                   hidden: false,
                   onTap: () {},
@@ -186,6 +187,7 @@ class SettingScreen extends StatelessWidget {
                           height: 8.0.h,
                         ),
                         CustomBtn(
+                          isLoading: false,
                           title: AppTexts.clearButtonText,
                           hidden: false,
                           onTap: () {},

@@ -83,6 +83,7 @@ class ZoneScreen extends StatelessWidget {
               bool isEnabled = state.selectedZoneIndex != null;
 
               return CustomBtn(
+                isLoading: false,
                 title: AppTexts.continueBtn,
                 hidden: !isEnabled,
                 onTap: () {

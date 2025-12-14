@@ -28,7 +28,11 @@ class DiscountCard extends StatelessWidget {
             children: [
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 100.0.w),
-                child: CustomBtn(title: AppTexts.sevenDaysFree, hidden: false, onTap: () {}),
+                child: CustomBtn(
+                  isLoading: false,
+                    title: AppTexts.sevenDaysFree,
+                    hidden: false,
+                    onTap: () {}),
               ),
               SizedBox(height: 16.0.h),
               Text(

@@ -112,6 +112,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   SizedBox(height: 10.h),
                   CustomBtn(
+                    isLoading: false,
                       hidden: false,
                       title: AppTexts.login,
                       onTap: () {

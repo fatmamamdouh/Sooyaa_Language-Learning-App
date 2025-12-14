@@ -80,4 +80,5 @@ class AppTexts {
   static String tryFree = "Try 7 days Free";
   static String aboutTheLesson = "About the lesson";
   static String videoScreenQuestions = "Are you going on vacation this year?";
+  static String soyaWithYou = "Sooya with you";
 }

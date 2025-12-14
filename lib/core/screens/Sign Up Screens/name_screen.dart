@@ -78,6 +78,7 @@ class _NameScreenState extends State<NameScreen> {
                 SizedBox(height: 300.h),
                 Center(
                   child: CustomBtn(
+                    isLoading: false,
                       hidden: false,
                       title: AppTexts.continueBtn,
                       onTap: () {

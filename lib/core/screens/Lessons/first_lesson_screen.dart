@@ -54,6 +54,7 @@ class FirstLessonScreen extends StatelessWidget {
               const Spacer(),
               Center(
                 child: CustomBtn(
+                  isLoading: false,
                   title: AppTexts.continueBtn,
                   hidden: false,
                 ),

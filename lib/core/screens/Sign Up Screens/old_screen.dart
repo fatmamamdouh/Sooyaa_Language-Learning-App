@@ -74,6 +74,7 @@ class OldScreen extends StatelessWidget {
               bool isEnabled = state.selectedOldIndex != null;
 
               return CustomBtn(
+                isLoading: false,
                 title: AppTexts.continueBtn,
                 hidden: !isEnabled,
                 onTap: () {

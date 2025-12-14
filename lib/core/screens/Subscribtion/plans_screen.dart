@@ -134,6 +134,7 @@ class PlansScreen extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.symmetric(vertical: 16.h),
                 child: CustomBtn(
+                  isLoading: false,
                   title: AppTexts.tryFree,
                   hidden: false,
                   onTap: () {},

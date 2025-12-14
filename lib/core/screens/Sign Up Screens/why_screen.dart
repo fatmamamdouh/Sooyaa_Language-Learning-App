@@ -80,6 +80,7 @@ class WhyScreen extends StatelessWidget {
               bool isEnabled = state.selectedWhyIndex != null;
 
               return CustomBtn(
+                isLoading: false,
                 title: AppTexts.continueBtn,
                 hidden: !isEnabled,
                 onTap: () {

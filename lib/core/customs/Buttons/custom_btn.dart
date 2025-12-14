@@ -6,10 +6,12 @@ class CustomBtn extends StatelessWidget {
   final String title;
   final VoidCallback? onTap;
   final bool hidden;
+  final bool isLoading;
   const CustomBtn({
     super.key,
     required this.title,
     this.onTap,
+    required this.isLoading,
     required this.hidden,
   });
 
@@ -17,7 +19,16 @@ class CustomBtn extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onTap,
-      child: Container(
+      child: isLoading? SizedBox(
+        width: 315.w,
+        height: 50.h,
+        child: Center(
+          child: CircularProgressIndicator(
+            color: AppColors.white,
+            backgroundColor: AppColors.primaryColor,
+          ),
+        ),
+      ) : Container(
         width: 315.w,
         height: 50.h,
         alignment: Alignment.center,

@@ -31,6 +31,7 @@ class WelcomeScreen extends StatelessWidget {
           ),
           SizedBox(height: 20.h),
           CustomBtn(
+            isLoading: false,
               hidden: false,
               title: AppTexts.letsGo,
               onTap: () => Navigator.pushNamed(context, "signUpWithEmail")),

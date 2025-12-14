@@ -76,6 +76,7 @@ class _CodeScreenState extends State<CodeScreen> {
                   child: SizedBox(
                     width: 180.w,
                     child: CustomBtn(
+                      isLoading: false,
                       title: AppTexts.sendBtn,
                       onTap: () {
                         if (_formKey.currentState!.validate()) {
@@ -110,6 +111,7 @@ class _CodeScreenState extends State<CodeScreen> {
                             ),
                             Center(
                               child: CustomBtn(
+                                isLoading: false,
                                 title: AppTexts.continueBtn,
                                 onTap: () {
                                   if (_otpFormKey.currentState!.validate()) {

@@ -25,6 +25,7 @@ class SuccessScreen extends StatelessWidget {
           ),
           const Spacer(),
           CustomBtn(
+            isLoading: false,
             title: AppTexts.letsGo,
             onTap: () => Navigator.pushNamed(context, "selectLunguage"),
             hidden: false,

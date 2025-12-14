@@ -74,6 +74,7 @@ class LevelScreen extends StatelessWidget {
               bool isEnabled = state.selectedLevelIndex != null;
 
               return CustomBtn(
+                isLoading: false,
                 title: AppTexts.continueBtn,
                 hidden: !isEnabled,
                 onTap: () {

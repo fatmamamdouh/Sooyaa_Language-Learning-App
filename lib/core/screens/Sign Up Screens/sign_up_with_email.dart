@@ -60,6 +60,7 @@ class _SignUpWithEmailState extends State<SignUpWithEmail> {
                 ),
                 SizedBox(height: 20.h),
                 CustomBtn(
+                  isLoading: false,
                     hidden: false,
                     title: AppTexts.continueBtn,
                     onTap: () {

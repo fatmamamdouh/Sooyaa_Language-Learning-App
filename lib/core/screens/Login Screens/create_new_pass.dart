@@ -116,6 +116,7 @@ class _CreateNewPasswordState extends State<CreateNewPassword> {
                     ),
                     SizedBox(height: 320.h),
                     CustomBtn(
+                      isLoading: false,
                       title: AppTexts.continueBtn,
                       onTap: () {
                         if (_formKey.currentState!.validate()) {

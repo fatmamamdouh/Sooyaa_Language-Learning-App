@@ -68,6 +68,7 @@ class SelectLanguageScreen extends StatelessWidget {
               bool isEnabled = state.selectedLanguageIndex != null;
 
               return CustomBtn(
+                isLoading: false,
                 title: AppTexts.continueBtn,
                 hidden: !isEnabled,
                 onTap: () {

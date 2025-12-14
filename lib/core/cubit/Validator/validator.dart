@@ -12,6 +12,12 @@ class Validator {
     return null;
   }
 
+  static String? validateWord({required String word}) {
+    if (word.isEmpty) {
+      return "can't be empty";
+    }
+    return null;
+  }
   // static String? validatePhone({required String phone}) {
   //   final egyptPhoneRegex = RegExp(r'^(010|011|012|015)[0-9]{8}$');
   //   if (phone.isEmpty) {

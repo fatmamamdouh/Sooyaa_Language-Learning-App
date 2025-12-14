@@ -14,7 +14,7 @@ class DioHelper {
         connectTimeout: Duration(seconds: 60),
         receiveTimeout: Duration(seconds: 60),
         sendTimeout: Duration(seconds: 60),
-        baseUrl: '',
+        baseUrl: 'https://sooyaaapp.runasp.net/api',
         receiveDataWhenStatusError: true,
       ),
     );

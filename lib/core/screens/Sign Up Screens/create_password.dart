@@ -111,6 +111,7 @@ class _CreatePasswordState extends State<CreatePassword> {
                   SizedBox(height: 310.h),
                   Center(
                     child: CustomBtn(
+                      isLoading: false,
                         hidden: false,
                         title: AppTexts.continueBtn,
                         onTap: () {
