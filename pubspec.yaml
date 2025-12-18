@@ -39,8 +39,9 @@ dependencies:
   flutter_bloc:
   pinput:
   dio:
-  video_player: ^2.7.0
-  chewie: ^1.7.1
+  video_player:
+  chewie:
+  percent_indicator:
 
 dev_dependencies:
   flutter_test:
