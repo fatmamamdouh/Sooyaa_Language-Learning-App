@@ -114,7 +114,7 @@ class SettingScreen extends StatelessWidget {
                         Switch(
                           value: true,
                           onChanged: (value) {},
-                          activeThumbColor: AppColors.white,
+                          activeColor: AppColors.white,
                           activeTrackColor: AppColors.primaryColor,
                         ),
                       ],

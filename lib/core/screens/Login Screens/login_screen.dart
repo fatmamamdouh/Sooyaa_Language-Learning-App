@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sooyaa_pro/core/cubit/login/login_cubit.dart';
-import 'package:sooyaa_pro/core/customs/Dialog/confirm_email_dialog.dart';
-import 'package:sooyaa_pro/core/screens/Login%20Screens/widget/pass_login_textfield.dart';
+import 'package:sooyaa_app/core/cubit/login/login_cubit.dart';
+import 'package:sooyaa_app/core/customs/Dialog/confirm_email_dialog.dart';
+import 'package:sooyaa_app/core/screens/Login%20Screens/widget/pass_login_textfield.dart';
 import '../../cubit/Validator/validator.dart';
 import '../../cubit/login/login_state.dart';
 import '../../cubit/password/pass_cubit.dart';

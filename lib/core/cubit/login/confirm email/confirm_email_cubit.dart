@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sooyaa_pro/core/Services/auth_api.dart';
+import 'package:sooyaa_app/core/Services/auth_api.dart';
 import '../../../errors/api_failure.dart';
 import 'confirm_email_state.dart';
 

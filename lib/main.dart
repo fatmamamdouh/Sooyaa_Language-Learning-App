@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sooyaa_pro/core/cubit/login/login_cubit.dart';
+import 'package:sooyaa_app/core/cubit/login/login_cubit.dart';
 import '../../core/Services/get_apis.dart';
 import '../../core/cubit/Languages/language_cubit.dart';
 import '../../core/cubit/register/register_cubit.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sooyaa_pro/core/Services/auth_api.dart';
-import 'package:sooyaa_pro/core/cubit/login/forget%20pass/forget_pass_state.dart';
+import 'package:sooyaa_app/core/Services/auth_api.dart';
+import 'package:sooyaa_app/core/cubit/login/forget%20pass/forget_pass_state.dart';
 
 import '../../../errors/api_failure.dart';
 

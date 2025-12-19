@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sooyaa_pro/core/customs/Buttons/custom_btn.dart';
-import 'package:sooyaa_pro/core/resources/app_texts.dart';
+import 'package:sooyaa_app/core/customs/Buttons/custom_btn.dart';
+import 'package:sooyaa_app/core/resources/app_texts.dart';
 import '../../cubit/Tab/tab_cubit.dart';
 import '../../customs/AppBar/learning_progress.dart';
 import '../../customs/AppBar/top_bar.dart';

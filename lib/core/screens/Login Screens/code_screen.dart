@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sooyaa_pro/core/cubit/login/forget%20pass/forget_pass_state.dart';
-import 'package:sooyaa_pro/core/screens/Login%20Screens/widget/message_success.dart';
+import 'package:sooyaa_app/core/cubit/login/forget%20pass/forget_pass_state.dart';
+import 'package:sooyaa_app/core/screens/Login%20Screens/widget/message_success.dart';
 import '../../cubit/Validator/validator.dart';
 import '../../cubit/login/forget pass/foget_pass_cubit.dart';
 import '../../customs/AppBar/icons_app_bar.dart';

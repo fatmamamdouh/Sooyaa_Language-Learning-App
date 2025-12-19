@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sooyaa_pro/core/cubit/selection/selection_cubit.dart';
-import 'package:sooyaa_pro/core/cubit/selection/selection_state.dart';
-import 'package:sooyaa_pro/core/customs/AppBar/select_app_bar.dart';
-import 'package:sooyaa_pro/core/customs/Buttons/custom_btn.dart';
-import 'package:sooyaa_pro/core/customs/Containers/select_container.dart';
-import 'package:sooyaa_pro/core/resources/app_images.dart';
-import 'package:sooyaa_pro/core/resources/app_texts.dart';
+import 'package:sooyaa_app/core/cubit/selection/selection_cubit.dart';
+import 'package:sooyaa_app/core/cubit/selection/selection_state.dart';
+import 'package:sooyaa_app/core/customs/AppBar/select_app_bar.dart';
+import 'package:sooyaa_app/core/customs/Buttons/custom_btn.dart';
+import 'package:sooyaa_app/core/customs/Containers/select_container.dart';
+import 'package:sooyaa_app/core/resources/app_images.dart';
+import 'package:sooyaa_app/core/resources/app_texts.dart';
 
 class SelectLanguageScreen extends StatelessWidget {
   SelectLanguageScreen({super.key});

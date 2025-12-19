@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:sooyaa_app/core/cubit/home/home_cubit.dart';
 
 import '../../cubit/navigation/nav_cubit.dart';
 import '../../resources/app_colors.dart';
@@ -14,7 +15,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => NavCubit(),
+      create: (BuildContext context) => NavCubit(),
       child: BlocBuilder<NavCubit, int>(
         builder: (context, state) {
           final nav = context.read<NavCubit>();

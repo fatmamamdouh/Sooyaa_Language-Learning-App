@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sooyaa_pro/core/Services/get_apis.dart';
+import 'package:sooyaa_app/core/Services/get_apis.dart';
 import '../../errors/api_failure.dart';
 import 'language_state.dart';
 
